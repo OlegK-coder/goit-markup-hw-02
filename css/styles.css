@@ -23,6 +23,7 @@ header {
   font-weight: bold;
   font-size: 26px;
   line-height: 1, 9;
+  text-decoration: none;
 }
 
 .web-logo {
@@ -36,7 +37,16 @@ header {
 .nav-link {
   font-weight: 500;
   line-height: 1, 14;
-  color: var(--primery-text-color);
+  color: #212121;
+  text-decoration: none;
+}
+
+.studio {
+  color: #2196f3;
+}
+
+.portfolio {
+  color: #2196f3;
 }
 
 .nav-link:hover,
@@ -47,7 +57,8 @@ header {
 .contacts-link {
   font-weight: 500;
   line-height: 1, 14;
-  color: var(--primery-text-color);
+  color: #757575;
+  text-decoration: none;
 }
 
 .nav-contacts a:hover,
@@ -71,6 +82,9 @@ header {
 
 .hero-border-button {
   background-color: #2196f3;
+  font-weight: 700;
+  line-height: 1, 9;
+  border-style: none;
   color: #ffffff;
   cursor: pointer;
 }
@@ -80,9 +94,8 @@ header {
 }
 
 .services-title {
-  font-weight: bold;
+  font-weight: 700;
   line-height: 1, 14;
-  text-transform: uppercase;
   color: var(--primery-text-color);
 }
 
@@ -127,17 +140,21 @@ header {
 
 .adress {
   line-height: 1, 7;
+  font-style: normal;
   color: #ffffff;
 }
 
 .footer-contacts-link {
   line-height: 1, 7;
-  color: #ffffff;
+  color: #757575;
 }
 
 .filter-button {
-  background-color: var(--primery-background);
-  color: var(--primery-text-color);
+  font-weight: 500;
+  background-color: var(--secondary-background);
+  color: #212121;
+  border-style: none;
+  line-height: 1, 6;
   cursor: pointer;
 }
 
@@ -162,4 +179,9 @@ header {
 
 .logo1 {
   color: #ffffff;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 9;
+  text-decoration: none;
 }

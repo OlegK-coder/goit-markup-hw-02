@@ -22,7 +22,7 @@ header {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 9;
+  line-height: 1, 17;
   text-decoration: none;
 }
 
@@ -82,6 +82,7 @@ header {
 
 .hero-border-button {
   background-color: #2196f3;
+  font-size: 16px;
   font-weight: 700;
   line-height: 1, 9;
   border-style: none;
@@ -95,7 +96,8 @@ header {
 
 .services-title {
   font-weight: 700;
-  line-height: 1, 14;
+  font-size: 14px;
+  line-height: 1, 17;
   color: var(--primery-text-color);
 }
 
@@ -123,14 +125,14 @@ header {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1, 17;
   text-align: center;
   color: var(--primery-text-color);
 }
 
 .team-job {
   font-size: 16px;
-  line-height: 1, 19;
+  line-height: 1, 17;
   text-align: center;
 }
 
@@ -146,7 +148,8 @@ header {
 
 .footer-contacts-link {
   line-height: 1, 7;
-  color: #757575;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .filter-button {
@@ -154,6 +157,7 @@ header {
   background-color: var(--secondary-background);
   color: #212121;
   border-style: none;
+  font-size: 16px;
   line-height: 1, 6;
   cursor: pointer;
 }
@@ -182,6 +186,6 @@ header {
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
-  line-height: 1, 9;
+  line-height: 1, 17;
   text-decoration: none;
 }
